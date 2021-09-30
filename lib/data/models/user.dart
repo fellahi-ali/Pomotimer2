@@ -9,7 +9,7 @@ class User {
   String? get otherNames => _otherNames;
   List<Pomodoro>? get pomodoros => _pomodoros;
 
-   addPomodoro(Pomodoro pomodoro){
+  addPomodoro(Pomodoro pomodoro){
     this._pomodoros!.add(pomodoro);
   }
 
